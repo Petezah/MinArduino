@@ -24,6 +24,8 @@
   Modified 1 August 2010 by Mark Sproul
 */
 
+#ifndef DISABLE_WINTERRUPTS
+
 #include <inttypes.h>
 #include <avr/io.h>
 #include <avr/interrupt.h>
@@ -322,3 +324,4 @@ ISR(TWI_vect) {
 }
 */
 
+#endif
